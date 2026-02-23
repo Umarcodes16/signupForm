@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(56, 25, 233);
+        font-family: "Nunito", sans-serif;   
+     } 
+    .container {
+        width: 60%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding:20px;
+        border-radius: 7px;
+    }
+    .second {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heading {
+        margin-right: 847px;
+        margin-top: -15px;
+
+    }
+
+    .header {
+        margin: -10px 0px;
+        color: rgb(83, 81, 81);
+    }
+
+    .box {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        margin-right: 400px;
+        margin-bottom: 8px;
+    }
+
+    .box div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #google {
+        display: flex;
+        align-items: flex-end;
+
+        /* justify-content: center; */
+        margin-top: 20px;
+        float: left;
+        margin: -12px -30px;
+        /* height: 40px; */
+        width: 50px;
+        padding: 30px;
+    }
+
+    #google button {
+        background-color: rgb(56, 25, 233);
+        color: white;
+        border: none;
+        padding: 10px 50px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #google button:hover {
+        background-color: rgb(9, 8, 20);
+    }
+    .box input {
+        width: 234px;
+        padding: 5px;
+        border: 1px solid rgb(196, 191, 191);
+        border-radius: 4px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="second">
+
+            <div class="heading">
+                <h2>Registration</h2>
+            </div>
+            <div class="header">
+                <h2>Personel Details</h2>
+            </div>
+            <div class="box">
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label>Date of Birth</label>
+                    <input type="text" placeholder="Enter birth date">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <label>Mobile Number</label>
+                    <input type="text" placeholder="Enter mobile number">
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <input type="text" placeholder="Enter your gender">
+                </div>
+                <div>
+                    <label>Occupation</label>
+                    <input type="text" placeholder="Enter occupation">
+                </div>
+            </div>
+            <div class="header">
+                <h2>Identity Details</h2>
+            </div>
+            <div class="box">
+                <div>
+                    <label>ID Type</label>
+                    <input type="text" placeholder="Enter ID type">
+                </div>
+                <div>
+                    <label> ID Number</label>
+                    <input type="text" placeholder="Enter ID number">
+                </div>
+                <div>
+                    <label>Issue Authority</label>
+                    <input type="text" placeholder="Enter issue department">
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <label>Issue Date</label>
+                    <input type="text" placeholder="Enter issue date">
+                </div>
+                <div>
+                    <label> Issue state</label>
+                    <input type="text" placeholder="Enter ID issue state">
+                </div>
+                <div>
+                    <label>Expiry Date</label>
+                    <input type="text" placeholder="Enter ID expiry date">
+                </div>
+            </div>
+            <div id="google">
+                <button type="Next">Next</button>
+            </div>
+        </div>
+</body>
+
+</html>
